@@ -1,7 +1,14 @@
+import { useUserDetails } from "contexts";
+import { WelcomePage } from "pages";
+
 function App() {
+  const {
+    userDetails: { userName },
+  } = useUserDetails();
+
   return (
-    <div className="App">
-      <h1>Personalized Desk</h1>
+    <div>
+      <WelcomePage />
     </div>
   );
 }

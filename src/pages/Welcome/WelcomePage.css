@@ -1,0 +1,11 @@
+.welcome__input {
+  padding: 0.2rem 1rem;
+  outline: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 0.2rem solid var(--primary-color);
+  font-size: 2.5rem;
+  width: 25%;
+  text-align: center;
+  margin: 1.5rem 0;
+}
