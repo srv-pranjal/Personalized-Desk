@@ -1,5 +1,5 @@
 import { useUserDetails } from "contexts";
-import { WelcomePage } from "pages";
+import { WelcomePage, Dashboard } from "pages";
 
 function App() {
   const {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <WelcomePage />
+      {userName.length > 0 ? <Dashboard /> : <WelcomePage />}
     </div>
   );
 }

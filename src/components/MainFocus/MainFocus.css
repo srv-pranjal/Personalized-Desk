@@ -1,0 +1,40 @@
+.focus {
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+.focus__text {
+  font-size: 2rem;
+  margin-top: 1rem;
+  user-select: none;
+}
+
+.focus__edit {
+  margin-top: 1.25rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  right: 0;
+}
+.focus:hover .focus__edit {
+  opacity: 1;
+  transform: translateX(125%);
+}
+.focus__edit:hover {
+  background-color: var(--light-shade);
+}
+.focus__input {
+  padding: 0.2rem 0.5rem;
+  outline: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 0.1rem solid var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  width: 75%;
+  margin: 1rem 0;
+}

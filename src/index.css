@@ -3,6 +3,9 @@
 :root {
   --primary-color: #fff;
   --dark-shade-I: rgba(0, 0, 0, 0.7);
+  --dark-shade-II: rgba(0, 0, 0, 0.8);
+  --dark-shade-III: rgba(0, 0, 0, 0.5);
+  --light-shade: rgba(255, 255, 255, 0.3);
 }
 
 * {

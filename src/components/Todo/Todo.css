@@ -1,0 +1,78 @@
+.todo {
+  cursor: pointer;
+  position: fixed;
+  bottom: 1.5rem;
+  left: 2rem;
+  font-weight: 600;
+}
+.todo__container {
+  background-color: var(--dark-shade-II);
+  box-shadow: 0 0 0.3rem;
+  max-height: 20rem;
+  width: 18rem;
+  position: fixed;
+  bottom: 4rem;
+  left: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.todo__header {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+.todo__header .todo__clear {
+  margin-left: auto;
+  cursor: pointer;
+}
+.todo__input {
+  padding: 0 0.5rem;
+  outline: none;
+  background: transparent;
+  border: 0;
+  font-size: 1.25rem;
+}
+.todo__list {
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+  overflow-y: auto;
+  max-height: 10rem;
+}
+.todo__task {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 35ch;
+  cursor: pointer;
+}
+.todo__task > p {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  letter-spacing: 0.75px;
+  max-width: 20ch;
+}
+.todo__completed {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.5;
+}
+.todo__delete {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.todo__list::-webkit-scrollbar {
+  width: 0.5rem;
+  cursor: pointer;
+}
+.todo__list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px transparent;
+}
+.todo__list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 0.5rem;
+}
