@@ -47,13 +47,13 @@
   align-items: center;
   gap: 1rem;
   max-width: 35ch;
-  word-break: break-all;
   cursor: pointer;
 }
 .todo__task > p {
   font-family: Georgia, serif;
   font-size: 1rem;
   letter-spacing: 0.75px;
+  max-width: 20ch;
 }
 .todo__completed {
   text-decoration: line-through;
