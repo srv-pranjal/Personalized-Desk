@@ -1,6 +1,7 @@
 import {
   DisplayQuote,
   DisplayTime,
+  DisplayWeather,
   GreetUser,
   MainFocus,
   Todo,
@@ -15,6 +16,7 @@ export const Dashboard = () => {
       <MainFocus />
       <DisplayQuote />
       <Todo />
+      <DisplayWeather />
     </div>
   );
 };
