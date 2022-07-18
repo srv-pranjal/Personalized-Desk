@@ -1,0 +1,1 @@
+export { getUserGreeting } from "./getUserGreeting";
