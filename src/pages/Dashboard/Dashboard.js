@@ -1,4 +1,10 @@
-import { DisplayQuote, DisplayTime, GreetUser, MainFocus } from "components";
+import {
+  DisplayQuote,
+  DisplayTime,
+  GreetUser,
+  MainFocus,
+  Todo,
+} from "components";
 import "./Dashboard.css";
 
 export const Dashboard = () => {
@@ -8,6 +14,7 @@ export const Dashboard = () => {
       <GreetUser />
       <MainFocus />
       <DisplayQuote />
+      <Todo />
     </div>
   );
 };
