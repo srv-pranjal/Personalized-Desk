@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #fff;
+  --dark-shade-I: rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -23,4 +24,19 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.section {
+  background-color: var(--dark-shade-I);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__heading {
+  font-size: 4rem;
+  user-select: none;
+  text-align: center;
 }
