@@ -1,0 +1,27 @@
+.quote {
+  position: fixed;
+  bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.quote__text{
+    font-size: 1.5rem;
+    max-width: 70ch;
+    text-align: center;
+    transition: 0.5s;
+}
+.quote__author{
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+}
+.quote:hover .quote__author{
+    opacity: 1;
+    transform: translateY(125%);
+}
+.quote:hover .quote__text{
+    transform: translateY(-35%);
+}

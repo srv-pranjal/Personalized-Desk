@@ -1,4 +1,4 @@
-import { DisplayTime, GreetUser } from "components";
+import { DisplayQuote, DisplayTime, GreetUser } from "components";
 import "./Dashboard.css";
 
 export const Dashboard = () => {
@@ -6,6 +6,7 @@ export const Dashboard = () => {
     <div className="dashboard section">
       <DisplayTime />
       <GreetUser />
+      <DisplayQuote />
     </div>
   );
 };
